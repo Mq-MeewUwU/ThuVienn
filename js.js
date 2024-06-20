@@ -13,3 +13,10 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+  function cc(){
+    var autoplay = document.getElementById("cl");
+    autoplay=true;
+    
+
+  }
