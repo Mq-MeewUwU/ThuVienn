@@ -1,0 +1,182 @@
+a{
+    text-decoration: none;
+}
+.boder{
+    background-image: url("bg.jpg");
+}
+.boder-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.boder-container-text{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.boder-container-text h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-shadow: 3px 3px 7px rgb(156, 155, 155);
+}
+.container-book-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 29px;
+    align-items: flex-end;
+}
+.container-book-2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.book-link::after{
+    content: "";
+    padding-right: 30px;
+
+}
+.book-link:hover{
+    transition: 0.2;
+    opacity: 0.7;
+}
+.book-link:active{
+    transition: 0.2;
+    opacity: 1;
+}
+
+@media (max-width:820px) {
+    #container-book-1-c2{
+        flex-direction: column;
+    }
+    #container-book-2-c2{
+        flex-direction: column;
+    }
+    #boder-container-book-c2{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    #container-book-2-c2::before{
+        content: "";
+        margin-top: -30px;
+    }
+    .book-link>img{
+        width: 100px;   
+        height: 170px;
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ThongTinSach */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+.boder-infor-book{
+    background-image: url("bg.jpg");
+}
+.info-book{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+}
+.img-book{
+    padding: 0 20px;
+}
+.text-author{
+    text-align: right;
+    padding-right: 30px;
+}
+.text-note>p{
+    padding-bottom: 3px;
+}
+.text-note>button{
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    padding: 0 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #ccc;
+}
+.text-note>button:active{
+    transition: 0.1s;
+   opacity: 0.5;
+}
+.text-info-and-author {
+    scrollbar-color: #ccc #f4f1f1;
+    scrollbar-width: thin;
+
+
+}
+.text-converging{
+    margin-top: 12px;
+}
+tr>td:first-child{
+    font-weight: bold;
+}
+td{
+    font-size: 15px;
+    font-family: "Martian Mono", monospace;
+    padding-bottom: 5px
+}
+.text-title{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+#more {
+    display: none;
+}
+@media (max-width:620px){
+    #text-title-c2{
+        font-size: 27px;
+    }
+}
+@media (max-width:820px){
+    .text-info-and-author{
+        overflow: auto;
+        
+    }
+}
+@media (max-width:520px)  {
+    .img-book>img{
+        width: 90px;
+        height: 130px;
+    }
+    
+    .text-converging{
+        font-size: 10px;
+    }
+    .text-info td{
+        font-size: 10px;
+        padding-bottom: 2px;
+    }
+}
