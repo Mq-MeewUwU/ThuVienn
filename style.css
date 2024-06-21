@@ -203,27 +203,25 @@ div.space{
 .menu-list{
     display: flex;
     list-style: none;
-    background-size: 300px 200px;
-    background-color: black;
+    background-size: 100% auto;
+    background-color: rgb(70, 69, 69);
     justify-content: space-evenly;
     position: relative;
     mix-blend-mode: multiply;
 }
 .menu-list a{ 
-    color: rgb(255, 255, 255);
+    color: rgb(239, 234, 234);
     text-decoration: none;
     font-size: 25px;    
     font-weight:lighter;
     
-  
-
-}.menu-list li{
-  padding-bottom:  10px ;
-        
-    
+}
+.menu-list li{
+    padding: 10px ;
 }
 .ts{
-    background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-beautiful-elegant-sycamore-leaves-yellow-orange-red-autumn-background-picture-image_1241050.jpg");
+    background-image: url("/my_image/pngtree-beautiful-elegant-sycamore-leaves-yellow-orange-red-autumn-background-picture-image_1241050.jpg");
+    background-size: 200px 300px;
 }
 .menu-list li:hover{
     transition: 0.2;

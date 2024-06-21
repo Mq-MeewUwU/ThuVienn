@@ -1,0 +1,70 @@
+.pagecc{
+    background-image: url("bg.jpg");
+    overflow: auto;
+}
+.containers,.containers-note{
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.containers-note>p{
+    padding-left: 200px;
+    font-size: 20px;
+}
+.containers>h1{
+    font-size: 40px;
+    text-shadow: -2px 2px 15px rgb(109, 181, 160);
+}
+.containers>h1:hover{
+    cursor: pointer;
+    color: #5a5a5a;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;  
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);  
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);  
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);  
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    text-shadow: 0 0 10px rgb(255, 255, 255) , 0 0 20px rgb(9, 211, 43) , 0 0 30px rgb(0, 244, 77) , 0 0 40px #00fbff , 0 0 70px #00ffff , 0 0 80px #0059ff , 0 0 100px #fb00ff ;
+}
+.containers-note>p:first-child{
+    padding-bottom: 20px;
+}
+.containers-note>p:last-child{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.containers-about{
+   width: 720px; 
+   margin: 0 auto;
+}
+.about-menu{
+    list-style: none;
+    
+    
+}
+.about-menu a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-menu li{
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0;
+    display: block;
+    border-radius: 50px;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(227, 217, 217);
+}
+.about-menu li:hover{
+    text-shadow: 0 0 10px rgb(79, 185, 161) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #209bb7 , 0 0 80px #ff00de , 0 0 100px #ff00de ;  
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);  
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);  
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);  
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    box-shadow: 0 0 10px rgb(0, 0, 0) , 0 0 20px rgba(33, 35, 46, 0.749) , 0 0 30px rgba(16, 22, 24, 0.717) , 0 0 40px #040c2e  ;
+    transition: 0.3s;
+}
+@media(max-width:960px){
+    
+}
